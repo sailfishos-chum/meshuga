@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+X-Nemo-Application-Type=generic
+Name=Meshuga
+Icon=harbour-meshuga
+Exec=sailjail -p harbour-meshuga.desktop /usr/bin/sailfish-qml harbour-meshuga
+X-Desktop-File-Install-Version=0.28
+
+[X-Sailjail]
+Permissions=Internet
+OrganizationName=app.qml
+ApplicationName=meshuga
